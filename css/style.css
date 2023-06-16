@@ -1,13 +1,10 @@
 body {
+    font-family: 'Syne', sans-serif;
     background-color: #FAEDCD;
 }
 
 
 /* nav */ 
-
-header {
-    font-family: 'Syne', sans-serif;
-}
 
 
 ul {
@@ -22,43 +19,12 @@ a {
     display: none;
 }
 
-/* custom color */
-.black {
-    font-size: 18px;
-    color: black;
-}
-
-.black-title {
-    font-size: 40px;
-}
 
 .blue {
     font-family: 'UnifrakturCook', cursive;
     color: #457B9D;
-    font-size: 60px;
 }
 
-.blue-small {
-    font-family: 'UnifrakturCook', cursive;
-    color: #457B9D;
-    font-size: 20px;
-}
-
-.blue-normal-medium {
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 40px;
-}
-
-.blue-large {
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 250px;
-    color: #457B9D;
-}
-
-.normal {
-    font-family: 'Syne', sans-serif;
-    font-weight: 500;
-}
 
 /* div sizing */
 
@@ -67,38 +33,115 @@ header {
 }
 
 section {
-  margin: 35vh 30px;
+  margin: 20vh 30px;
   text-align: center;
 }
 
+/* intro */
+
+#main-intro h1 {
+    font-size: 200px;
+}
+
+
+/* sizing */
+
+.about-title h1, .gallery-title h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.about-text p {
+    font-size: 25px;
+}
 
 /* gallery */
 
-.gallery-card {
-  margin: 100px 0;
-  border-right: 1px solid #989898;
-  padding: 10px;
+.gallery-content {
+    margin: 40px 0;
 }
 
-.gallery-number {
-    margin: 50px 0;
+.g-card {
+    padding: 20px;
+    margin: 40px 0;
+    border-right: 1px solid #989898;
 }
 
-.gallery-title {
-    height: 120px;
-    margin: 10px;
-    text-align: left;
-}
-
-.gallery-card:hover {
-    color: white;
-    background: url(/img/trouble-in-paradise.jfif);
-    background-position: center;
+.g-card-hover-1:hover {
+    background: url(/img/dont-wanna-be-okay-without-you.jfif);
     background-size: cover;
-    background-repeat: none;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+.g-card-hover-2:hover {
+    background: url(/img/the-shooting-gallery.jfif);
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
 }
 
-.gallery-card h1:hover {
+.g-card-hover-3:hover {
+    background: url(/img/trouble-in-paradise.jfif);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.g-card-hover-4:hover {
+    background: url(/img/cover-for-action.jfif);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.g-card:hover h1, .g-card:hover h2, .g-card:hover p{
     color: white;
 }
+
+
+.g-title {
+    text-align: left;
+margin: auto;
+height: 200px;
+    width: 200px;
+}
+
+.g-title h1 {
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.g-mini-title {
+    text-align: left;
+margin: auto;
+    width: 200px;
+}
+
+.g-number h2 {
+    font-size: 200px;
+}
+
+/* media Query */
+
+@media (max-width: 680px),
+screen and (orientation: portrait) {
+    #main-intro h1 {
+    font-size: 60px;
+}
+
+section {
+    margin: 33vh 30px;
+    text-align: center;
+  }
+
+  /* gallery */ 
+
+  .g-card {
+    margin: 0px;
+    border-right: none;
+    border-bottom: 1px solid #989898;
+}
+  
+  }
