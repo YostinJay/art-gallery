@@ -19,6 +19,14 @@ a {
     display: none;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+ul.navbar-nav {
+    text-align: center;
+}
+
 
 .blue {
     font-family: 'UnifrakturCook', cursive;
@@ -33,14 +41,14 @@ header {
 }
 
 section {
-  margin: 20vh 30px;
+  margin: 200px 30px;
   text-align: center;
 }
 
 /* intro */
 
 #main-intro h1 {
-    font-size: 200px;
+    font-size: 172px;
 }
 
 
@@ -132,7 +140,7 @@ screen and (orientation: portrait) {
 }
 
 section {
-    margin: 33vh 30px;
+    margin: 300px 30px;
     text-align: center;
   }
 
@@ -143,5 +151,18 @@ section {
     border-right: none;
     border-bottom: 1px solid #989898;
 }
+
+/* sizing */
+
+.about-title h1, .gallery-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.about-text p {
+    font-size: 18px;
+}
+
   
   }
