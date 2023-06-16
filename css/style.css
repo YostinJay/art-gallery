@@ -1,0 +1,104 @@
+body {
+    background-color: #FAEDCD;
+}
+
+
+/* nav */ 
+
+header {
+    font-family: 'Syne', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+.nav-items {
+    display: none;
+}
+
+/* custom color */
+.black {
+    font-size: 18px;
+    color: black;
+}
+
+.black-title {
+    font-size: 40px;
+}
+
+.blue {
+    font-family: 'UnifrakturCook', cursive;
+    color: #457B9D;
+    font-size: 60px;
+}
+
+.blue-small {
+    font-family: 'UnifrakturCook', cursive;
+    color: #457B9D;
+    font-size: 20px;
+}
+
+.blue-normal-medium {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 40px;
+}
+
+.blue-large {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 250px;
+    color: #457B9D;
+}
+
+.normal {
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+}
+
+/* div sizing */
+
+header {
+    margin: 0 30px;
+}
+
+section {
+  margin: 35vh 30px;
+  text-align: center;
+}
+
+
+/* gallery */
+
+.gallery-card {
+  margin: 100px 0;
+  border-right: 1px solid #989898;
+  padding: 10px;
+}
+
+.gallery-number {
+    margin: 50px 0;
+}
+
+.gallery-title {
+    height: 120px;
+    margin: 10px;
+    text-align: left;
+}
+
+.gallery-card:hover {
+    color: white;
+    background: url(/img/trouble-in-paradise.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    cursor: pointer;
+}
+
+.gallery-card h1:hover {
+    color: white;
+}
