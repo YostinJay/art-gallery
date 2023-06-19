@@ -3,7 +3,6 @@ body {
     background-color: #FAEDCD;
 }
 
-
 /* nav */ 
 
 
@@ -165,12 +164,6 @@ section {
   }
 
   /* gallery */ 
-
-  .g-card {
-    margin: 0px;
-    border-right: none;
-    border-bottom: 1px solid #989898;
-}
 
 .g-art-desc h1 {
      font-size: 50px;
