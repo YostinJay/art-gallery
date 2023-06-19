@@ -76,6 +76,16 @@ margin: 10px 0px;
     font-size: 25px;
 }
 
+.slide-prompter {
+    margin: 20px 0;
+    display: none;
+}
+
+.slide-prompter p {
+    text-align: left;
+    font-weight: bold;
+}
+
 /* gallery */
 
 .gallery-content {
@@ -189,6 +199,11 @@ section {
   section#g-art {
     margin: 0px;
     overflow-x: hidden;
+    }
+
+    .slide-prompter {
+        margin: 20px 0;
+        display: block;
     }
 
   /* gallery */ 
