@@ -49,8 +49,13 @@ section {
 }
 
 section#main-intro {
-  margin: 150px 30px;
+  margin: 130px 30px;
 }
+
+
+section#about {
+    margin: 300px 0px;
+  }
 
 section#g-art {
 margin: 90px 0px;
