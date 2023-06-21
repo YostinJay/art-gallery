@@ -1,93 +1,88 @@
 body {
-    font-family: 'Syne', sans-serif;
-    background-color: #FAEDCD;
+  font-family: "Syne", sans-serif;
+  background-color: #faedcd;
 }
 
-/* nav */ 
-
+/* nav */
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .nav-items {
-    display: none;
+  display: none;
 }
 
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 ul.navbar-nav {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 .blue {
-    font-family: 'UnifrakturCook', cursive;
-    color: #457B9D;
+  font-family: "UnifrakturCook", cursive;
+  color: #457b9d;
 }
-
 
 /* div sizing */
 
 header {
-    margin: 0 30px;
+  margin: 0 30px;
 }
 
 section {
-    text-align: center;
+  text-align: center;
 }
 
 section#main-intro {
   margin: 130px 30px;
 }
 
-
 section#about {
-    margin: 300px 0px;
-  }
+  margin: 300px 0px;
+}
 
 section#g-art {
-margin: 90px 0px;
+  margin: 90px 0px;
 }
 
 /* intro */
 
 #main-intro h1 {
-    font-size: 13vw;
+  font-size: 13vw;
 }
-
 
 /* sizing */
 
-.about-title h1, .gallery-title h1 {
-    font-size: 60px;
-    font-weight: bold;
+.about-title h1,
+.gallery-title h1 {
+  font-size: 60px;
+  font-weight: bold;
 }
 
-
 .about-text p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .slide-prompter {
-    margin: 20px 0;
-    display: none;
+  margin: 20px 0;
+  display: none;
 }
 
 .slide-prompter p {
-    text-align: left;
-    font-weight: bold;
+  text-align: left;
+  font-weight: bold;
 }
 
 /* gallery */
@@ -96,224 +91,215 @@ margin: 90px 0px;
     margin: 40px 0;
 } */
 
-.g-card, .g-card-art-page {
-    padding: 20px;
-    height: 100%;
-    border-right: 1px solid #989898;
-    
+.g-card,
+.g-card-art-page {
+  padding: 20px;
+  height: 100%;
+  border-right: 1px solid #989898;
 }
 
 .g-art-navigation {
-    padding: 20px;
-    height: 100%;
-    border-left: 1px solid #989898;
+  padding: 20px;
+  height: 100%;
+  border-left: 1px solid #989898;
 }
 
 .g-card-hover-1:hover {
-    background: url(/img/dont-wanna-be-okay-without-you.jfif);
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-
+  background: url(/img/dont-wanna-be-okay-without-you.jfif);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
 
 .g-card-hover-2:hover {
-    background: url(/img/the-shooting-gallery.jfif);
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+  background: url(/img/the-shooting-gallery.jfif);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
 
 .g-card-hover-3:hover {
-    background: url(/img/trouble-in-paradise.jfif);
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+  background: url(/img/trouble-in-paradise.jfif);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
 
 .g-card-hover-4:hover {
-    background: url(/img/cover-for-action.jfif);
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+  background: url(/img/cover-for-action.jfif);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
 
-.g-card:hover h1, .g-card:hover h2, .g-card:hover p{
-    color: white;
+.g-card:hover h1,
+.g-card:hover h2,
+.g-card:hover p {
+  color: white;
 }
-
 
 .g-title {
-    text-align: left;
-margin: auto;
-height: 200px;
-    width: 200px;
+  text-align: left;
+  margin: auto;
+  height: 200px;
+  width: 200px;
 }
 
 .g-title h1 {
-    font-family: 'UnifrakturCook', cursive;
+  font-family: "UnifrakturCook", cursive;
 }
 
 .g-mini-title {
-    text-align: left;
-margin: auto;
-    width: 200px;
+  text-align: left;
+  margin: auto;
+  width: 200px;
 }
 
 .g-number h2 {
-    font-size: 350px;
+  font-size: 350px;
 }
 
 .g-art-desc {
-margin: 20px 0;
+  margin: 20px 0;
 }
 
 .g-art-desc h1 {
-   padding: 40px;
-    font-size: 50px;
-    transform: rotate( -90deg);
+  padding: 40px;
+  font-size: 50px;
+  transform: rotate(-90deg);
 }
 
 .g-art-desc p {
-    text-align: left;
-    padding: 30px;
+  text-align: left;
+  padding: 30px;
 }
 
 .hide-scroll {
-    overflow: hidden!important;
+  overflow: hidden !important;
 }
-
 
 /*g-art navigation*/
 
 .btn-back {
-    height: 300px;
-    align-items: start;
-    display: flex;
-    justify-content: space-evenly;
+  height: 300px;
+  align-items: start;
+  display: flex;
+  justify-content: space-evenly;
 }
-
 
 .btn-front {
-    height: 300px;
-    align-items: end;
-    display: flex;
-    justify-content: space-evenly;
+  height: 300px;
+  align-items: end;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.btn-back a:hover, .btn-front a:hover{
-    color: #457B9D;
-    text-decoration: underline;
+.btn-back a:hover,
+.btn-front a:hover {
+  color: #457b9d;
+  text-decoration: underline;
 }
-
-
-
 
 /* media Query */
 
-@media (max-width: 680px),
-screen and (orientation: portrait) {
-    #main-intro h1 {
+@media (max-width: 680px), screen and (orientation: portrait) {
+  #main-intro h1 {
     font-size: 60px;
-}
+  }
 
-section {
+  section {
     text-align: center;
   }
-  
 
   section#main-intro {
     margin: 250px 30px;
   }
 
-
   section#g-art {
     margin: 0px;
     overflow-x: hidden;
-    }
+  }
 
-    .slide-prompter {
-        margin: 20px 0;
-        display: block;
-    }
+  .slide-prompter {
+    margin: 20px 0;
+    display: block;
+  }
 
-  /* gallery */ 
+  /* gallery */
 
- .g-art-page-title {
+  .g-art-page-title {
     width: 100%;
     height: 100%;
   }
 
-.g-art-desc h1 {
+  .g-art-desc h1 {
     padding: 20px;
-     font-size: 50px;
-     transform: rotate( 0deg);
- }
+    font-size: 50px;
+    transform: rotate(0deg);
+  }
 
- .g-art-desc p {
+  .g-art-desc p {
     text-align: left;
     padding: 20px;
-}
+  }
 
-.g-art-content {
+  .g-art-content {
     margin: 20px 0px;
-}
+  }
 
-.g-art-content img {
+  .g-art-content img {
     width: 100%;
     height: 100%;
-}
+  }
 
-.g-card {
+  .g-card {
     margin-right: 30px;
-}
+  }
 
-.g-card, .g-card-art-page {
+  .g-card,
+  .g-card-art-page {
     border-bottom: 1px solid #989898;
     border-right: none;
-}
+  }
 
-.g-art-navigation {
+  .g-art-navigation {
     border-top: 1px solid #989898;
     border-left: none;
-}
+  }
 
-.hide-scroll {
-    overflow: scroll!important;
-}
+  .hide-scroll {
+    overflow: scroll !important;
+  }
 
-/* sizing */
+  /* sizing */
 
-.about-title h1, .gallery-title h1 {
+  .about-title h1,
+  .gallery-title h1 {
     font-size: 40px;
     font-weight: bold;
-}
+  }
 
-
-.about-text p {
+  .about-text p {
     font-size: 18px;
-}
+  }
 
-.g-number h2 {
+  .g-number h2 {
     font-size: 280px;
-}
+  }
 
-/*g-art navigation*/
+  /*g-art navigation*/
 
-.btn-back {
+  .btn-back {
     height: 0px;
     align-items: center;
     display: flex;
     justify-content: flex-start;
-}
+  }
 
-.btn-front {
+  .btn-front {
     height: 0px;
     align-items: center;
     display: flex;
     justify-content: flex-end;
-}
-
-
-  
   }
+}
