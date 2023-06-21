@@ -87,9 +87,9 @@ section#g-art {
 
 /* gallery */
 
-/* .gallery-content {
-    margin: 40px 0;
-} */
+.gallery-content {
+  margin: 35px 0;
+}
 
 .g-card,
 .g-card-art-page {
