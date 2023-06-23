@@ -72,7 +72,7 @@ section#g-art {
 }
 
 .about-text p {
-  font-size: 25px;
+  font-size: 20 px;
 }
 
 .slide-prompter {
@@ -93,7 +93,7 @@ section#g-art {
 
 .g-card,
 .g-card-art-page {
-  padding: 20px;
+  padding: 20px 0px;
   height: 100%;
   border-right: 1px solid #989898;
 }
@@ -172,6 +172,10 @@ section#g-art {
 .g-art-desc p {
   text-align: left;
   padding: 30px;
+}
+
+.g-art-desc a {
+  color: #457b9d;
 }
 
 .hide-scroll {
