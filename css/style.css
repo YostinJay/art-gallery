@@ -75,12 +75,8 @@ section#g-art {
   font-size: 20 px;
 }
 
-.slide-prompter {
-  margin: 20px 0;
-  display: none;
-}
-
 .slide-prompter p {
+  display: none;
   text-align: left;
   font-weight: bold;
 }
@@ -224,8 +220,8 @@ section#g-art {
     overflow-x: hidden;
   }
 
-  .slide-prompter {
-    margin: 20px;
+  .slide-prompter p {
+    padding: 10px;
     display: block;
   }
 
