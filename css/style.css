@@ -1,6 +1,8 @@
 body {
   font-family: "Syne", sans-serif;
   background-color: #faedcd;
+  position: relative;
+  overflow-x: hidden;
 }
 
 /* nav */
@@ -75,8 +77,12 @@ section#g-art {
   font-size: 20 px;
 }
 
-.slide-prompter p {
+.slide-prompter {
+  margin: 20px 0;
   display: none;
+}
+
+.slide-prompter p {
   text-align: left;
   font-weight: bold;
 }
@@ -220,7 +226,7 @@ section#g-art {
     overflow-x: hidden;
   }
 
-  .slide-prompter p {
+  .slide-prompter {
     padding: 10px;
     display: block;
   }
