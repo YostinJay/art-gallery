@@ -1,9 +1,13 @@
 body {
   font-family: "Syne", sans-serif;
   background-color: #faedcd;
-  position: relative;
-  overflow-x: hidden;
+  /* position: relative;
+  overflow-x: hidden; */
 }
+/* 
+* {
+  border: 1px solid red !important;
+} */
 
 /* nav */
 
@@ -55,6 +59,10 @@ section#about {
   margin: 300px 0px;
 }
 
+section#gallery {
+  overflow: hidden;
+}
+
 section#g-art {
   margin: 90px 0px;
 }
@@ -78,20 +86,17 @@ section#g-art {
 }
 
 .slide-prompter {
-  margin: 20px 0;
   display: none;
-}
-
-.slide-prompter p {
   text-align: left;
   font-weight: bold;
 }
 
-/* gallery */
-
-.gallery-content {
-  margin: 35px 0;
+.slide-prompter p {
+  margin: 0px;
+  padding: 10px;
 }
+
+/* gallery */
 
 .g-card,
 .g-card-art-page {
@@ -227,7 +232,6 @@ section#g-art {
   }
 
   .slide-prompter {
-    padding: 10px;
     display: block;
   }
 
