@@ -112,28 +112,28 @@ section#g-art {
 }
 
 .g-card-hover-1:hover {
-  background: url(/img/dont-wanna-be-okay-without-you.jfif);
+  background: url(/img/dont-wanna-be-okay-without-you.jpg);
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 
 .g-card-hover-2:hover {
-  background: url(/img/the-shooting-gallery.jfif);
+  background: url(/img/the-shooting-gallery.jpg);
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 
 .g-card-hover-3:hover {
-  background: url(/img/trouble-in-paradise.jfif);
+  background: url(/img/trouble-in-paradise.jpg);
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 
 .g-card-hover-4:hover {
-  background: url(/img/cover-for-action.jfif);
+  background: url(/img/cover-for-action.jpg);
   background-size: cover;
   background-position: center;
   cursor: pointer;
