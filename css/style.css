@@ -9,6 +9,33 @@ body {
   border: 1px solid red !important;
 } */
 
+/* transisiton animate */
+
+.transition-fade {
+  transition: 500ms;
+  opacity: 1;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+}
+
+.transition-fade-in {
+  transition: 500ms;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade-in {
+  opacity: 0;
+}
+
 /* nav */
 
 ul {
@@ -51,16 +78,12 @@ section {
   text-align: center;
 }
 
-section#main-intro {
-  margin: 130px 30px;
-}
-
-section#about {
-  margin: 300px 0px;
-}
-
 section#gallery {
   overflow: hidden;
+}
+
+section#main-intro {
+  margin: 100px 0;
 }
 
 section#g-art {
@@ -79,10 +102,17 @@ section#g-art {
 .gallery-title h1 {
   font-size: 60px;
   font-weight: bold;
+  text-align: left;
+  padding: 30px;
+}
+
+.about-text {
+  padding: 70px 0;
 }
 
 .about-text p {
-  font-size: 20 px;
+  font-size: 30px;
+  padding: 30px;
 }
 
 .slide-prompter {
