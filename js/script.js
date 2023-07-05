@@ -1,7 +1,7 @@
 const swup = new Swup();
 
-$(function () {
-  $(document).click(function (event) {
-    $(".navbar-collapse").collapse("hide");
-  });
+document.addEventListener("click", function handleClick(event) {
+  event.target.classList.add("new-active");
+
+  event.target.classList.remove("new-active");
 });
