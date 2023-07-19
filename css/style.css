@@ -4,8 +4,8 @@ body {
   /* position: relative;
   overflow-x: hidden; */
 }
-/* 
-* {
+
+/* * {
   border: 1px solid red !important;
 } */
 
@@ -225,6 +225,7 @@ section#g-art {
 
 .g-art-desc p {
   text-align: left;
+  margin: 0px;
   padding: 30px;
 }
 
